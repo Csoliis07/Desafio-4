@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio 4</title>
+</head>
+<body>
+
+  <div class="boarder-tittle">
+    <h1 class="tittle">Vení al Gym!💪</h1>
+  </div>
+
+ <form class="form" action="http://localhost:8080/datos-persona"  method="get"   target="_blank">
+
+<fieldset class="legend">
+  <legend class="h2">🙋Datos Personales👀</legend>
+
+  <div>
+    <label class="lbl" for="lbl-nombre">Nombre: *</label>
+    <input class="inpt" type="text" id="lbl-nombre" name="nombre" required> 
+  </div>
+    
+  <div>
+    <label class="lbl" for="lbl-apellido">Apellido: *</label>
+    <input class="inpt" type="text" name="apellido" id="lbl-apellido" required> 
+  </div>
+
+  <div>
+    <label class="lbl" for="lbl-documento">Documento: *</label>
+    <input class="inpt" type="text" id="lbl-documento" required>
+  </div>
+    
+  <div>
+    <label class="lbl"  for="lbl-nacionalidad">Nacionalidad: *</label>
+    <select class="div2" name="Nacionalidad" id="lbl-nacionalidad" required>
+          <option value="">-Seleccionar-</option>
+          <option value="">Argentina</option>
+          <option value="">Brasil</option>
+          <option value="">Uruguay</option>
+    </select>
+  </div>
+
+  <div>
+    <label class="lbl" for="lbl-descricpcion">Contanos un poco de vos...</label>
+    <textarea class="area" name="Descripcion" id="lbl-descricpcion" cols="30" rows="03"></textarea>
+  </div>
+
+  <div>
+    <label class="lbl1" for="id">Sexo: *</label>
+  </div>
+  <div class="lbl1">
+    <input type="radio" name="sexo" id="sexo1">
+    <label for="sexo1">Masculino</label>
+    <input type="radio" name="sexo" id="sexo2">
+    <label for="sexo2">Femenino</label>
+    <input type="radio" name="sexo" id="sexo3">
+    <label for="sexo3">Otro</label>
+  </div>
+
+ </fieldset>
+    
+  
+ <fieldset class="legend">
+  <legend class="h2">📲Datos de contacto📧</legend>
+
+  <div>
+    <label class="lbl" for="lbl-telefono">Teléfono:</label>
+    <input class="inpt" type="tel" name="telefono" required placeholder="Codigo de area y número" id="lbl-telefono">
+  </div>
+
+  <div>
+    <label class="lbl" for="lbl-correo">Dirección de correo electronico: *</label>
+    <input class="inpt" type="email" name="correo" required placeholder="Ej: mail@gmail.com" id="lbl-correo"> 
+  </div>
+
+ </fieldset>
+
+ <fieldset class="legend2">
+  <legend class="h2">🚴Actividades🤸‍♀️</legend>
+
+  <p class="p">Por favor, indica que actividades te interesan.</p>
+
+  <p class="p">Sede Palermo:</p>
+
+  <div class="div">
+    <input type="radio" name="Sede-Palermo" id="lbl-sede1">
+    <label for="lbl-sede1">Basquet</label>
+    <input type="radio" name="Sede-Palermo" id="lbl-sede2">
+    <label for="lbl-sede2">Boxeo</label>
+    <input type="radio" name="Sede-Palermo" id="lbl-sede3">
+    <label for="lbl-sede3">Futbol</label>
+    <input type="radio" name="Sede-Palermo" id="lbl-sede4">
+    <label for="lbl-sede4">Tennis</label>
+  </div>
+
+  <p class="p">Sede Rosario:</p>
+ 
+  <div class="div">
+    <input type="radio" name="Sede-Rosario" id="lbl-sede5">
+    <label for="lbl-sede5">Basquet</label>
+    <input type="radio" name="Sede-Rosario" id="lbl-sede6">
+    <label for="lbl-sede6">Futbol</label>
+    <input type="radio" name="Sede-Rosario" id="lbl-sede7">
+    <label for="lbl-sede7">Rugby</label>
+    <input type="radio" name="Sede-Rosario" id="lbl-sede8">
+    <label for="lbl-sede8">Voley</label>
+  </div>
+
+ </fieldset>
+
+  <div class="out">
+    <input type="checkbox" name="acepto-condiciones" id="lbl-condiciones">
+    <label for="lbl-condiciones">Acepto las condiciones *</label>
+  </div>
+
+  <div class="out">
+    <input type="checkbox" name="novedades" id="lbl-novedades">
+    <label for="lbl-novedades">Deseo recibir novedades</label>
+  </div>
+
+  <div class="out">
+    <p>* Campo obligatorio</p>
+  </div>
+
+  <button class="button" type="submit">Iniciar Afiliación</button>
+
+  <button class="button" type="reset">Restablecer</button>
+
+  </form>
+
+  <form action="https://postman-echo.com/post" method="post">
+
+    <input type="text" name="nombre">
+
+    <button>Enviar</button>
+
+  </form>
+
+  <script type="module" src="/main.js"></script>
+  
+</body>
+</html>

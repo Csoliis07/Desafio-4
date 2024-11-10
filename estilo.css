@@ -1,0 +1,130 @@
+html{
+    background-color:black;
+ }
+ 
+ .boarder-tittle{
+    background-color: black;
+    border: solid, 17px rgb(58, 92, 87);
+    border-right: transparent;
+    border-left: transparent;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin-inline-start: 280px;
+    margin-inline-end: 280px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    }
+    
+ .tittle{
+    font-weight: 800;
+    display: block;
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    }
+ 
+ .form{
+    background-color: rgb(7, 7, 7);
+    text-align:center;
+    margin-inline-start: 280px;
+    margin-inline-end: 280px;
+    }
+ 
+    .div{ 
+       font-family:'Roboto', sans-serif;
+       color: rgb(12, 12, 12);
+       font-size: 16px;
+    }
+ 
+    .h2{
+    color:rgb(250, 247, 247);
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: rgb(46, 70, 66);
+    padding: 5px;
+    }
+ 
+    .lbl{
+       color: rgb(12, 12, 12);
+       font-size: 16px;
+       font-family:'Roboto', sans-serif;
+    }
+ 
+    .lbl1{
+       color: rgb(12, 12, 12);
+       font-size: 16px;
+       font-family:'Roboto', sans-serif;
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+ 
+    .inpt{
+       width: 600px;
+       margin:50px;
+       margin-top: 18px;
+       margin-bottom: 18px;
+       padding: 6px;
+       text-align: end;
+       }
+ 
+    .inpt :hover{
+       border-color: #658a7f;
+       background-color: #7fb89d;  
+    }
+ 
+    .p{
+       font-family:'Roboto', sans-serif;
+       color: rgb(12, 12, 12);
+       font-size: 16px;
+    }
+    
+    .div2{
+       width: 610px;
+       margin:50px;
+       margin-top: 18px;
+       margin-bottom: 18px;
+       padding: 6px;
+    }
+ 
+    .area{
+       width: 590px;
+       height: 120px;
+       margin:50px;
+       margin-top: 18px;
+       margin-bottom: 18px;
+       padding: 10px;
+    }
+ 
+    .legend{
+       text-align: center;
+       border: 1px, solid, black;
+       border-radius: 2px;
+       background-color: rgb(174, 200, 201);
+    }
+ 
+    .legend2{
+       text-align: left;
+       border: 1px, solid, black;
+       border-radius: 2px;
+       background-color: rgb(174, 200, 201);
+    }
+ 
+    .out{
+       text-align: left;
+       color: aliceblue;
+       margin-top: 6px;
+       font-size: small;
+    }
+    
+    .button{
+       color: beige;
+       padding: 6px;
+       background-color: darkslategrey;
+       font-size: smaller;
+    }
